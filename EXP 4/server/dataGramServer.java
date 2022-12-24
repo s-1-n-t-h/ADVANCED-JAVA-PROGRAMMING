@@ -7,7 +7,6 @@ class dataGramServer {
         byte[] b = new byte[1024];
         System.out.println("Starting Server...");
         DatagramSocket ds = new DatagramSocket(3131);
-        DatagramPacket dp = new DatagramPacket(b,b.length);
         InetAddress ia = InetAddress.getLocalHost();
         System.out.print("Enter a Message: ");
 
